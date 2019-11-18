@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <link rel="stylesheet" href="css/main.css" type="text/css"/>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="lib/typed.js" type="text/javascript"></script>
+</head>
+
+<body>
+<div class="center">
+  <!--question-->
+  <div id="typed-strings">
+    <p>I never get mad at you<br>
+    but how come when I mess up and fail you get so angry at me</p>
+  </div>
+  <span id="yes15"></span>
+
+  <script>
+    var typed = new Typed('#yes15', {
+      stringsElement: '#typed-strings',
+      typeSpeed: 30,
+    });
+  </script>
+  <br>
+  <br>
+  <br>
+
+  <!--response-->
+<button class="button"><a href="yes16.html">i don’t mean to hurt your feelings<a></button><br>
+<button class="button" onmouseover="setTimeout(myFunction, 500);"><a href="yes12.html">i don't think this is good for either of us. i think i should leave.</a></button>
+</div>
+</body>
+<script>
+function myFunction() {
+  alert('i still love being friends with you!');
+}
+</script>
+</html>

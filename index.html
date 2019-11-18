@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<link rel="stylesheet" href="css/main.css" type="text/css"/>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="lib/typed.js" type="text/javascript"></script>
+</head>
+
+<body>
+<div class="center">
+<!--question-->
+<div id="typed-strings">
+</div>
+<span id="index"></span>
+
+<script>
+  var typed = new Typed('#index', {
+    strings: ['... are you still my friend?', '... are you still my friend?'],
+    typeSpeed: 40,
+    smartBackspace: true,
+    backSpeed: 20,
+    startDelay: 1500
+  });
+</script>
+<br>
+<br>
+<br>
+<!--response-->
+<button class="button"><a href="yes1.html">always!</a></button><br>
+<button button class="button" onmouseover="setTimeout(myFunction, 500);"><a href="no1.html">no, goodbye</a></button>
+</div>
+</body>
+<script>
+function myFunction() {
+  alert('i love being friends with you!');
+}
+</script>
+</html>

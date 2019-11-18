@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <link rel="stylesheet" href="css/main.css" type="text/css"/>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="lib/typed.js" type="text/javascript"></script>
+</head>
+
+<body>
+<div class="center">
+  <!--question-->
+  <div id="typed-strings">
+    <p>hmm...</p>
+  </div>
+  <span id="yes6"></span>
+
+  <script>
+    var typed = new Typed('#yes6', {
+      stringsElement: '#typed-strings',
+      typeSpeed: 100,
+      startDelay: 1500
+    });
+  </script>
+  <br>
+  <br>
+  <br>
+
+  <!--response-->
+<button class="button"><a href="yes7.html">what are you thinking?</a></button><br>
+<button class="button" onmouseover="setTimeout(myFunction, 500);"><a href="yes12.html">ok think im gonna go now since im busy</a></button>
+</div>
+</body>
+<script>
+function myFunction() {
+  alert('i love being friends with you!');
+}
+</script>
+</html>

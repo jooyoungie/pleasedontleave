@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <link rel="stylesheet" href="css/main.css" type="text/css"/>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="lib/typed.js" type="text/javascript"></script>
+</head>
+
+<body>
+<div class="center">
+  <!--question-->
+  <div id="typed-strings">
+    <p>i feel so alone</p>
+  </div>
+  <span id="yes12"></span>
+
+  <script>
+    var typed = new Typed('#yes12', {
+      stringsElement: '#typed-strings',
+      typeSpeed: 70,
+      startDelay: 6000
+    });
+  </script>
+  <br>
+  <br>
+  <br>
+
+  <!--response-->
+<button class="button"><a href="yes13.html">you’re not.</a></button><br>
+<button class="button" onmouseover="setTimeout(myFunction, 500);"><a href="yes12.html">I should go.</a></button>
+</div>
+</body>
+<script>
+function myFunction() {
+  alert('i love being friends with you!');
+}
+</script>
+</html>

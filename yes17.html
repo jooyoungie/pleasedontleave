@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <link rel="stylesheet" href="css/main.css" type="text/css"/>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="lib/typed.js" type="text/javascript"></script>
+</head>
+
+<body>
+<div class="center">
+  <!--question-->
+  <div id="typed-strings">
+    <p>don’t you need me in your life?<br>
+      without me you wouldn’t be able to do much</p>
+  </div>
+  <span id="yes17"></span>
+
+  <script>
+    var typed = new Typed('#yes17', {
+      stringsElement: '#typed-strings',
+      typeSpeed: 18,
+    });
+  </script>
+  <br>
+  <br>
+  <br>
+
+  <!--response-->
+<button class="button"><a href="yes18.html">you’re important to me<a></button><br>
+<button class="button" onmouseover="setTimeout(myFunction, 500);"><a href="yes12.html">i don’t need you. I’m going.</a></button>
+</div>
+</body>
+<script>
+function myFunction() {
+  alert('i think i would break down if you left me');
+}
+</script>
+</html>
