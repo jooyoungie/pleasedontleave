@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <link rel="stylesheet" href="css/main.css" type="text/css"/>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="lib/typed.js" type="text/javascript"></script>
+</head>
+
+<body>
+<div class="center">
+  <!--question-->
+  <div id="typed-strings">
+  </div>
+  <span id="index"></span>
+
+  <script>
+    var typed = new Typed('#index', {
+      strings: ['thank you for alwyas', 'thank you for always being there for me'],
+      typeSpeed: 40,
+      smartBackspace: true,
+      backSpeed: 70,
+      startDelay: 1000
+    });
+  </script>
+  <br>
+  <br>
+  <br>
+
+  <!--response-->
+<button class="button"><a href="yes2.html">of course, that’s what friends are for!</a></button><br>
+<button class="button" onmouseover="setTimeout(myFunction, 500);"><a href="yes12.html">actually, i won't always be by your side all the time, you know.</a></button>
+</div>
+</body>
+<script>
+function myFunction() {
+  alert('ur a great friend to me!');
+}
+</script>
+</html>

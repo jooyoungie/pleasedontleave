@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <link rel="stylesheet" href="css/main.css" type="text/css"/>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="lib/typed.js" type="text/javascript"></script>
+</head>
+
+<body>
+<div class="center">
+  <!--question-->
+  <div id="typed-strings">
+    <p>i don’t know what’s going on..<br>
+    i feel a little sick.<br>
+    I think i’m catching a virus</p>
+  </div>
+  <span id="yes10"></span>
+
+  <script>
+    var typed = new Typed('#yes10', {
+      stringsElement: '#typed-strings',
+      typeSpeed: 80,
+      startDelay: 5000
+    });
+  </script>
+  <br>
+  <br>
+  <br>
+
+  <!--response-->
+<button class="button"><a href="yes11.html">i’ll give you time to sleep</a></button><br>
+<button class="button" onmouseover="setTimeout(myFunction, 500);"><a href="yes12.html">good, i was waiting for this conversation to end anyways. i'll leave now.</a></button>
+</div>
+</body>
+<script>
+function myFunction() {
+  alert('i think i need you to help me...');
+}
+</script>
+</html>
